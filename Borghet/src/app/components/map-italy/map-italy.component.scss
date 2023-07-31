@@ -1,0 +1,24 @@
+// scss Italy
+
+.p {
+    font-family: Arial,
+        sans-serif;
+    text-align: center;
+}
+
+.map svg {
+    height: auto;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.map g {
+    fill: #E37F25;
+    stroke: #AE1A18;
+    stroke-width: 1;
+}
+
+.map g:hover {
+    fill: #AE1A18 !important;
+}

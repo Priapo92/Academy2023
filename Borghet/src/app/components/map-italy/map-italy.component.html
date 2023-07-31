@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="map col-lg-6 d-flex">
+        <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 -21.6 761 919" style="enable-background:new 0 -21.6 761 919;"
+            xml:space="preserve">
+            <a *ngFor="let regione of regions" [routerLink]="['/regione', regione.regioneId]">
+                <g [id]="regione.regioneId" data-bs-toggle="tooltip" [attr.title]="regione.name">
+                    <polygon *ngFor="let poligoni of regione.polygons" class="st0 " [attr.points]="poligoni" />
+                </g>
+            </a>
+        </svg>
+    </div>
+    <div class="col-lg-6">
+        <h3 class="text-secondary mb-5">Scegli una regione e comincia il viaggio!</h3>
+        <p class="fst-italic lh-base">L'Italia è un viaggio da fare
+            all'avventura, con il portabagagli vuoto. Bastano pochi
+            chilometri per approdare ad una verità assoluta: l'Italia è bella, è bella tutta, senza
+            retorica. Ogni regione, ogni borgo, è unicità che meraviglia. Le sorprese più grandi sono
+            nascoste nei vicoletti dei piccoli paesini, arroccati sulle montagne, adagiati nelle valli
+            verdi, protetti dalle chiome dei boschi o degli ulivi. Senza chiedere nulla si donano,
+            regalano la propria storia che lasciano raccontare alle mura, ai palazzi importanti e alle
+            stradine lastricate, attraversate nei secoli da barbari e genti straniere. I borghi italiani
+            sono un regalo da farsi, luoghi in cui scegliere di perdersi, partendo dalle viuzze del
+            centro storico e proseguendo per i sentieri sterrati che attraversano le riserve e i
+            tantissimi parchi. I castelli e le fortezze sono libri aperti che narrano incredibili
+            leggende, le chiese e i santuari sono miniere di tesori inestimabili. Con il piede che
+            ancora balla al ritmo travolgente delle musiche popolari e i sensi inebriati dai piatti
+            tipici, tornerete a casa e scoprirete che il vostro bagagliaio è pieno, perché per strada
+            non sarete riusciti a lasciar andare nulla, di così tanto splendore.</p>
+        <h3 class="text-end mt-5">Sei un produttore? <a routerLink="/chiSiamo">Contatttaci</a>
+        </h3>
+    </div>
+</div>

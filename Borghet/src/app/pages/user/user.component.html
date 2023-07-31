@@ -1,0 +1,72 @@
+<p>user works!</p>
+<div class="row mt-5 mb-5 mx-3">
+    <div class="col-xxl-3 col-xl-3 col-lg-12 text-center border border-primary border-3 rounded mx-auto p-2 mb-3 mt-3">
+        <div>
+            <fieldset width="300" height="200">
+                <legend>Foto Profilo</legend>
+                <img src="xxx" alt="Foto Profilo" width="300" height="300">
+                <br><br>
+                <input type="file" name="FotoProfilo" id="" accept=".img, .png, .jpeg">
+            </fieldset>
+        </div>
+
+    </div>
+    <div class="col-xxl-8 col-xl-8 border border-primary border-3 rounded container-fluid mx-auto p-2 text-center">
+        <legend>I Tuoi Dati</legend>
+        <div class="row gx-3 mb-3">
+            <form>
+                <div class="row gx-3 mb-3">
+                    <div class="col-md-5 mb-3">
+                        <input class="form-control" type="text" placeholder="Nome">
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <input class="form-control" type="text" placeholder="Cognome">
+                    </div>
+                    <div class="col-md-2 d-flex mb-3">
+                        <input class="border-3 border-primary rounded" type="date" id="dateStandard"
+                            name="dateStandard">
+                    </div>
+                </div>
+                <div class="row gx-3 mb-3">
+                    <div class="col-md-4 mb-3">
+                        <input class="form-control" type="text" placeholder="Indirizzo">
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <input class="form-control" type="text" placeholder="N.Civico" maxlength="3" size="3">
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <input class="form-control" type="text" placeholder="Regione">
+                    </div>
+                    <div class="col-md-1 mb-3">
+                        <input class="form-control" type="text" placeholder="Provincia">
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <input class="form-control" type="text" size="5" maxlength="5" placeholder="CAP">
+                    </div>
+                </div>
+                <div class="row gx-3 mb-3">
+                    <div class="col-md-6">
+                        <input class="form-control" id="inputEmailAddress" type="email" placeholder="E-mail">
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control" id="inputPhone" type="tel" placeholder="Numero di Telefono">
+                    </div>
+                </div>
+            </form>
+            <div class="row mt-3">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="dateStandard">Usa come indirizzo
+                        predefinito</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xxl-8 container text-center mt-3">
+        <app-payments></app-payments>
+    </div>
+    <div
+        class="col-xxl-4 container text-center mt-3 border border-primary border-3 rounded container-fluid mx-auto p-2">
+        <legend>Acquista di nuovo</legend>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+<div class="row d-flex">
+    <div class="btn-group" role="group" aria-label="Basic example" *ngIf="!isLogged">
+        <button type="button" class="btn btn-primary border border-1 border-secondary" data-bs-toggle="modal"
+            data-bs-target="#modLog">Accedi</button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+            data-bs-target="#modReg">Registrati</button>
+    </div>
+    <div class="modal fade" id="modLog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="index.html"><img class="rounded mx-auto d-block d-flex" src="assets/images/LogoBorghet.ico"
+                            alt="LogoBorghet" width="60" height="60">
+                    </a>
+                    <h1 class="modal-title fs-5 text-center text-primary" id="staticBackdropLabel ">
+                        Login
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        id="modale_login_chiudi"></button>
+                </div>
+                <div class="modal-body position-relative border border-primary border-3">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control mb-3" id="Email" placeholder="Indirizzo email"
+                                name="email" [(ngModel)]="loginEmail">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control mb-3" id="Password" placeholder="Password"
+                                name="password" [(ngModel)]="loginPassword">
+                        </div>
+                        <div class="form-group form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="Check">
+                            <label class="form-check-label" for="Check">Ricordati di me</label>
+                        </div>
+                        <a href="" class="text-right">Password dimenticata?</a>
+                        <a (click)="login()"
+                            class="btn btn-primary position-absolute bottom-0 end-0 mx-3 mb-3">Login</a>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Non sei ancora registrato?</p>
+                    <button (click)="dataSave()" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#modReg">Registrati
+                        <a href="modReg"></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modReg" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="index.html"><img class="rounded mx-auto d-block" src="assets/images/LogoBorghet.ico"
+                            alt="LogoBorghet" width="60" height="60"></a>
+                    <h1 class="modal-title fs-5 text-primary" id="staticBackdropLabel">Registrazione
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body border border-secondary border-3">
+                    <form>
+                        <div class="row mb-5">
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Nome/Cognome</span>
+                                <input type="text" aria-label="Nome" class="form-control">
+                                <input type="text" aria-label="Cognome" class="form-control">
+                            </div>
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Indirizzo">
+                            </div>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputCity" placeholder="Città">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <input id="inputProvincia" class="form-control" placeholder="Prov">
+                            </div>
+                            <div class="col-3 mb-5">
+                                <input type="text" class="form-control" id="inputCap" placeholder="CAP">
+                            </div>
+                        </div>
+                    </form>
+                    <p>Sei gia un utente? </p>
+                    <span><button type="button mx-5" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modLog">Accedi</button></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit " class="btn btn-primary">Registrati</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" *ngIf="isLogged">
+        <div class="col">
+            <h6>Bentonato! </h6>
+        </div>
+        <div class="col">
+            <button routerLink="/user" type="button"
+                class="btn btn-primary border border-1 border-secondary rouded">Pagina
+                Profilo</button>
+        </div>
+    </div>
+</div>

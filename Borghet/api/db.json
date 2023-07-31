@@ -1,0 +1,247 @@
+{
+	"regions": [
+		{
+			"name": "Abruzzo",
+			"description": "Dettagli piccoli incastonati come gemme, luccicano qua e là tra le montagne e le colline e arrivano fino alla costa, facendo dell'Abruzzo uno scrigno di tesori unici. Henry Cartier Bresson si è perso dietro all'oro dei bottoni che adornano gli abiti delle donne di Scanno, lo indossano ancora oggi le anziane e si vantano della propria punta nella ricostruzione del corteo nuziale Je Catenacce, che in estate invade le strade di questo piccolo paese. L'Abruzzo è la pace che traspare attraverso i suoi paesaggi incontaminati custoditi tra i parchi nazionali, dove in libertà si possono incontrare volpi, cervi e simpatici ricci di montagna. Arroccati sulle alture si trovano anche antichi borghi, fermi nel tempo, dove non di rado si assiste a tradizioni in costume e giostre medievali, con uomini in armatura che si sfidano in gare d'abilità. Tra le casette antiche si scorgono panorami che mozzano il fiato, affacciati sui laghi e sulle strette vallate...",
+			"map": "5",
+			"regioneId": "Abr",
+			"polygons": [
+				"408.8,362.9 411.8,367.3 410.3,379.3 404,379.6 412.7,410.2 399.9,412.2 398.7,420.7 415.9,433.3 440.1,435.5 454.5,425.6 466.1,425.9 470.9,433.6 479.4,429.4 486.3,417.6 486.6,416.6 465.2,398.5 441.1,359.6 440.1,356.7 420.1,362.9  "
+			],
+			"SNC": "C"
+		},
+		{
+			"name": "Basilicata",
+			"description": "Le montagne coprono gli sguardi, dall'alto si vedono affiorare le rocce nude e i boschi sterminati, è impensabile voler chiudere gli occhi. Il cuore batte forte mentre appesi ad un cavo d'acciaio si percorre la distanza che separa le cime di Castelmezzano da quelle di Pietrapertosa; il volo dell'Angelo porta in Basilicata amanti del brivido ma anche chi vuole lasciarsi conquistare dal paesaggio e da un modo diverso di scoprirlo. Il filo rosso che lega gli innamorati dei paesi piccoli, custodi di un'anima antica, percorre per intero tutta la Basilicata, porta ad Aliano dove tra i Calanchi Franco Arminio organizza il festival della Paesologia e poi a Craco, set a cielo aperto de La Passione di Cristo e di 007. Sono molti i fili che si attorcigliano tra il Parco del Pollino e le spiagge dorate. Il filo della storia, padrona dei luoghi della Lucania, terra di Briganti e di resistenti ma anche delle antiche case a Grotta di Matera. Il filo della letteratura che passa di nuovo per Aliano e poi per Potenza, s'intreccia con il filo del cinema e con quello della buona tavola e con altri ancora, creando un filo che non ha colori, è il filo dell'amore che lega chi passa per questa terra...",
+			"map": "5",
+			"regioneId": "Bas",
+			"polygons": [
+				"601.7,531.5 594.6,517.6 583.9,510.9 573.6,513.4 562.7,498.3 554.7,497 551.1,487.2 545.2,482.3 538.9,485.6 527.8,485.3 527.8,498.6 518.5,502.5 524.9,524.7 542.4,549.6 537.7,552 530.3,566.2 530.3,566.2 534.7,568.9 549.8,566.8 557.5,568.7 570.2,562.7 581.3,558 588.9,561.6 590.2,556.4 601.7,531.5"
+			],
+			"SNC": "C"
+		},
+		{
+			"name": "Calabria",
+			"description": "La Calabria è un delicato equilibrio tra sapori forti e sensazioni dolci, come i Cedri che accompagnano la costa Jonica e diffondono il loro profumo per le stradine dei borghi, mescolandosi con la brezza marina. Contrasti netti dominano questa terra, acque e rocce, speroni su cui sorgono santuari e castelli circondati dal blu cristallino dei mari, piccole isole e case che sembrano galleggiare come quelle di Tropea, patria della cipolla, ma anche borgo d'incanto fatto da stradine e scorci panoramici. Il peperoncino domina i piatti così come il mare domina la vista, strana equazione che imparano a conoscere bene gli sciatori che da Gambarie scendono a valle con la sensazione di trovare le acque marine ad attenderli. Il parco della Sila è uno dei vanti della regione, paesaggi incontaminati fatti di ruscelli e faggi secolari, abitato da lupi silani, volpi e puzzole. Il luogo ideale per gli amanti della natura e dello sport ma anche dei piccoli borghi di montagna immersi tra il verde dei boschi e il silenzio della neve d'inverno...",
+			"map": "5",
+			"regioneId": "Cal",
+			"polygons": [
+				"535.3,568.9 549.7,566.8 557.5,568.4 580.4,558.3 588.3,561.9 582.8,580.1 587.8,593.9 596.8,591.7 606.2,602.6 615.4,602.1 616.6,627.5 621.1,634.1 621.7,647.5 605.5,643.4 589.5,655.9 589.9,685 573.9,696.5 563.2,718 542.1,718 537.7,707.1 538,704.6 537.2,698.9 543.7,690.2 550.3,668.3 545.2,663.4 565.1,654 553.9,610.2 543.7,597.2  "
+			],
+			"SNC": "S"
+		},
+		{
+			"name": "Campania",
+			"description": "Chiudere gli occhi e lasciarsi coccolare dall’aroma del caffè, la Campania è questo ma anche molto di più. È l’allegria pittoresca di Napoli che abbraccia la regione e la trascina in un vortice di profumi e suoni dolci. I limoni di Sorrento spalancano le porte della Costiera Amalfitana e del suo connubio indissolubile fatto di bellezze naturali e genio archittettonico, in cui ogni scorcio è un panorama da cartolina proprio come quello che si vede dal cono del Vesuvio affacciato sul golfo di Napoli e sui villaggi di Ercolano e Pompei, fermi in un attimo eterno. La Campania è un sogno che non basta mai, in cui i piedi non sono mai stanchi di camminare e gli occhi di vedere...",
+			"map": "5",
+			"regioneId": "Cam",
+			"polygons": [
+				"430.8,479 451.6,508.7 460.5,507.9 470.9,524.1 489.6,523.2 498.6,538.3 493.9,549.6 509,555.6 530,566.5 530.3,565.1 537.7,552 542.4,549.6 524.9,524.7 518.5,502.5 527.8,498.6 527.8,485.6 525.9,486 512,486.3 509.5,472.6 502.5,470.4 501.6,462.3 495.8,462 477.2,466.7 462.3,457.3 450.4,464.2 436.3,463.3 439.2,472.6 430.8,479   "
+			],
+			"SNC": "S"
+		},
+		{
+			"name": "Emilia-Romagna",
+			"description": "Pianure infinite e montagne tra le più alte d'Italia, nel mezzo pendii dolci che digradano fino ad incontrare le acque e le spiagge che pulsano di musica e vita. L'Emilia-Romagna è un insieme infinito di cose che nessuno affiancherebbe ma che in questa regione coesistono e convivono in sintonia. L'Emilia Romagna è una terra di scrittori e poeti, Pier Vittorio Tondelli, Tonino Guerra, Carlo Lucarelli, eppure è anche patria di motori, e per questo capita di ritrovare nel suo perimetro Maranello e il museo Ferrari, il museo Lamborghini a Sant'Agata Bolognese e il Museo Panini, dedicato alla Maserati, a Civitanova. L'Emilia-Romagna è un angolo di mondo abitato da persone calorose ma sempre in movimento, in un continuo ciclo del ‘fare per stare bene', ci si ferma solo poche volte al giorno, a tavola. Non si può passare da questa terra, cerniera tra nord e sud, senza sedersi alla sua mensa, per poi girovagare per le città alla ricerca della giusta ricetta per il nostro palato...",
+			"map": "5",
+			"regioneId": "EmR",
+			"polygons": [
+				"382.3,277.9 380.9,286.6 370.3,282 358.8,283.4 352.2,291.6 343.7,291 336.6,284.1 332.3,268.6 315.1,259.8 306,268.9 289.3,262.9 277.3,264.5 272.3,255.2 261.4,254 249.1,240.7 235.2,242 221.2,241.4 217.9,227.5 205.4,224.8 205.9,217.1 212.5,218.8 212.8,211.4 216.3,208.6 212.5,202.1 219.2,192.2 249.3,190.3 280.3,208.3 289.6,203.7 290.7,201.8 314.2,207.9 319.6,205.3 332,213.6 343.8,213.3 364.9,217.1 362.7,221.2 365.6,256.5 376.3,275.4  "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Friuli-Venezia-Giulia",
+			"description": "Trieste ha una scontrosa gazia. Se piace, è come un ragazzaccio aspro e vorace, con gli occhi azzurri e mani troppo grandi per regalare un fiore; Umberto Saba raccontava così la sua città, Trieste, che ha fatto innamorare poeti e scrittori. Li ritroviamo ancora per le stradine, statue di bronzo che camminano o guardano il mare. Non meraviglia che questo luogo ispiri profondi sentimenti, per capirlo davvero basta affacciarsi sul golfo come fa il Castello di Miramare che guarda a strapiombo sulle acque, oppure allargare le braccia in Piazza Unità d'Italia, per sentire addosso l'emozione dell'immensità, nella più grande piazza d'Europa. A Trieste James Joyce ha lasciato la sua anima, ma noi non possiamo trattenerci oltre e ci lasciamo alle spalle la città per incamminarci verso il lungomare di Barcola e poi...",
+			"map": "5",
+			"regioneId": "FVG",
+			"polygons": [
+				"398.8,159.1 398.7,158.8 396.5,149.9 390.5,144.7 376.8,146.3 369.5,134.5 372.2,123.1 364.3,110.1 384,92.3 383.7,83.9 384,83.9 425.8,90.2 431.8,96.7 414.3,106.3 417.4,115.1 427.7,115.1 420.1,130.4 428.6,135.9 427.7,145.7 442,153.1 436.3,161.9 428.6,153.1 420.1,153.1 405,148.5 403.1,156.9 399.1,159.1   "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Lazio",
+			"description": "Vivere all'ombra del Colosseo non è un impresa facile, eppure il territorio laziale è custode instancabile di bellezze da fiaba. I borghi sono tutti da gustare, con passi lenti e animo curioso, piccole città fantasma punteggiano questa terra, sono luoghi suggestivi e magici, come Bagnoregio, arroccata su uno sperone roccioso che si sta disgregando e Antuni che dall'alto del suo colle si affaccia come un balcone fiorito su un panorama d'acqua, quello del lago di Turano che la circonda. Paesi narratori di storie che stanno volando via, perse nel tempo. Tra i vicoletti delle città, per le piazze e i palazzi, aleggia ancora lo spirito romano, che s'intreccia ad antiche leggende come quella della Tuscania, piccola cittadina che lega la sua fondazione ad Ascanio, figlio di Enea. Sono tutte da contemplare i templi e le ville patrizie di Tivoli e il porto romano di Civitavecchia che ancora adesso è crocevia di persone, molte dirette verso la Capitale, regina incontrastata di questa terra...",
+			"map": "5",
+			"regioneId": "Laz",
+			"polygons": [
+				"340.7,361.5 364.9,386.7 372.5,388.6 383.1,380.8 391.9,373 408.4,362.7 411.8,367.3 410.3,379.3 404,379.6 412.7,410.2 399.9,412.2 398.7,420.7 415.9,433.3 440.1,435.5 441.1,456 436.3,463.3 439.2,472.6 430.8,479 392.4,471.5 352.2,439.8 346.7,426.2 334.1,419.8 321.6,395.8 319.6,394.9 323.2,380.5 331.4,377.1 330.4,362.1 340.7,361.5   "
+			],
+			"SNC": "C"
+		},
+		{
+			"name": "Liguria",
+			"description": "La Liguria è una stretta fascia di terra in bilico tra le alte montagne e le acque cristalline del suo mare. Nonostante sia solo un lembo d'Italia racchiude nei suoi confini località adatte ad ogni età. Per i più piccini il posto ideale è Genova, una città amata da tutti ma adorabile da visitare in famiglia. La prima tappa è il suo famoso acquario che lascia a bocca aperta grandi e piccoli e poi la città dei bambini, un luogo dove imparare giocando i principi della scienza e della tecnica. Infine prendetevi un giorno per esplorare i vicoletti della città, gustando la famosa focaccia tra i carrugi che conducono fino al porto. La Liguria è anche terra dell'amore, le Cinque Terre profumano della freschezza di questo dolce sentimento. Approdati in questi luoghi magici vi verrà spontaneo adattarvi ad uno stile di vita lento, condito da un' inguaribile voglia di lasciarsi andare al piacere della scoperta, per questo le Cinque Terre non sono da visitare in un solo giorno, ma da gustare e assaporare fino in fondo. Da scegliere in due ma anche in gruppo per una vacanza di sole e relax è Portofino, con le sue casette variopinte che la fanno sembrare una tela d'autore...",
+			"map": "5",
+			"regioneId": "Lig",
+			"polygons": [
+				"124.7,253.6 145.1,254.9 148.5,243.9 156.1,229.5 169.2,233.8 176,228.6 187.6,230.5 194.4,223.1 205.4,224.8 217.9,227.5 221.2,241.4 235.2,242 236.5,252.4 247.1,262.9 247.7,273.2 247.7,273.5 206.2,247.5 184,242.9 171.7,247.5 160.5,259.2 154.5,270.7 124.7,281.4 116.5,272.6 124.7,253.6   "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Lombardia",
+			"description": "Avete fatto la foto davanti al duomo di Milano? Bene, ora chiudete gli occhi, dimenticate la madonnina e le guglie gotiche e respirate profondamente. Lasciatevi solleticare il naso dall’aria frizzante delle Alpi, quando riaprirete il vostro sguardo scoprirete di trovarvi a Carnello del Tasso, un borgo minuto lontano dallo smog milanese. Carnello del Tasso è un piccolo paese costruito sulla roccia che guarda a strapiombo sulle acque del fiume Brembo, per raggiungere questo luogo unico bisogna abbandonare la macchina ed incamminarsi per le mulattiere ma non temete sarete ricompensati da un paesaggio d’incanto e da un buon piatto di Casonei, ravioli locali da gustare lentamente. La Lombardia da scoprire non è certo quella delle industrie che circondano la Pianura Padana ma è un collage di luoghi che vivono all’ombra delle grandi città, grazie alle quali hanno potuto mantenere le piccole caratteristiche che le rendono di una bellezza superiore...",
+			"map": "5",
+			"regioneId": "Lom",
+			"polygons": [
+				"276.1,81.7 282.5,106.3 279.5,116.1 275.4,126 279.4,138.4 288.5,138.9 293.2,143.8 289,148.2 289.3,179.1 305.2,190 319.6,205.3 314.2,207.9 290.7,201.8 289.6,203.7 280.3,208.3 249.3,190.3 219.2,192.2 212.5,202.1 216.3,208.6 212.8,211.4 212.5,218.8 205.9,217.1 205.9,216.1 193.1,195.6 182.9,193.4 179.9,169.6 190.8,165.4 181,138.9 187.3,127.2 178.5,104.5 194.7,111 198.5,132.3 205.4,129.5 204.3,116.1 213.6,105.5 218.8,87.4 227.2,87.4 236.8,102.7 247.1,95.7 257.8,104.5 262.3,98.9 252.1,86.4 257.8,77.8 275.7,81.4   "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Marche",
+			"description": "Le Marche hanno tutti gli ingredienti per realizzare un cocktail indimenticabile. L’arte è sicuramente il filo che lega tutte le città, realizzando una rete in cui la cultura millenaria si è trasformata in artigianato di qualità. Tra le valli e le città fortificate sono custodite le opere di Raffello, Tiziano e Piero della Francesca, ma anche teatri e botteghe della ceramica. Urbino, città racchiusa in un castello è l’emblema dell’arte marchigiana, le sue stradine lastricate e il palazzo ducale colpiscono il cuore. Il secondo ingrediente da non dimenticare è quello della spiritualità. Partiamo dal santuario di Loreto che ospita i resti della casa di Gesù di Nazareth per raccontare una terra di Papi e Santi, ma soprattutto di pellegrini che seguivano i cammini e dimoravano nei tanti conventi e abazie disseminate per il territorio. Ci sono luoghi di silenzio e meditazione, arroccati sulle montagne o sui pendi delle colline, ma anche cattedrali che sono veri e propri musei aperti...",
+			"map": "5",
+			"regioneId": "Mar",
+			"polygons": [
+				"359.4,301.6 362.7,312.3 384,315.9 393.9,359.9 405.6,362.9 420.1,362.9 439.2,357.2 440.4,356.4 427.7,310.1 404,297.5 392.4,282.3 382.6,278.2 382.3,277.9 380.9,286.6 370.3,282 358.8,283.4 352.2,291.6 359.4,301.6   "
+			],
+			"SNC": "S"
+		},
+		{
+			"name": "Molise",
+			"description": "Le ruote della bicicletta corrono veloci, si arrampicano a fatica su per le colline e costeggiano le montagne. Le sfumature di verde sono prese da tavolozze d'acquerelli, qua e là cedono il passo a quadrati di grano dorato e poco più avanti il cielo e il mare s'incontrano in un azzurro brillante. Siamo in Molise, un fazzoletto di terra custodito dagli Appennini e dall'Adriatico, con una storia fatta da signorie arroccate sulle colline e tratturi, antiche vie della transumanza. Per le città si trovano scorci d'arte e natura, come il castello normanno di Termoli a strapiombo sul mare e le chiese e cattedrali affacciate sui paesaggi incontaminati. Ma a rapire il cuore sono i borghi adagiati sui pendii, luoghi che fanno innamorare, dove i sapori sono genuini, le scuole hanno una sola classe e le tradizioni sono secolari come i carretti artigianali trainati dai buoi per la festa del Pardo di Larino, lo sfavillio di colori delle Carrese e la festa dell'uva di Riccia che dal 1930 rende onore al duro lavoro dei campi...",
+			"map": "5",
+			"regioneId": "Mol",
+			"polygons": [
+				"506.3,426.5 494.8,423.4 486.6,416.6 486.3,416.9 486.3,417.6 479.4,429.4 470.9,433.6 466.1,425.9 454.5,425.6 440.1,435.5 441.1,456 436.3,463.3 450.4,464.2 462.3,457.3 477.2,466.7 495.8,462 495.1,451.6 501.6,439.3 506.3,426.9  "
+			],
+			"SNC": "C"
+		},
+		{
+			"name": "Piemonte",
+			"description": "Il Piemonte è la regione adatta ai viaggiatori in cerca di mete tranquille ma anche ricche di storia e di cultura. Questa terra conserva un' eleganza austera ed imperiosa, che indossa come un elegante vestito d'epoca, gli stessi che probabilmente amavano le regine di casa Savoia. La monarchia ha dato tanto a questa regione ma molto hanno regalato anche i tanti che hanno scelto questo luogo per vivere e lavorare. Agli inizi del novecento il Piemonte è stata terra di approdo dei tanti giovani che dal meridione partivano in cerca di fortuna, portando con sé le storie e i costumi delle proprie origini. Il fulcro delle bellezze del Piemonte è Torino, città simbolo della nascita industriale. Dall'alto della sua mole si assiste al via vai cittadino, per le sue strade su cui sono disseminati eleganti palazzi signorili, chiese, musei e raffinate cioccolaterie. Torino custodisce anche due beni unici al mondo, che tutta Italia le invidia: la chiesa madre della città ospita la Sacra Sindone, che concentra su di sé le attenzioni di innumerevoli visitatori, altrettanto richiesto è anche il Museo Egizio, inaugurato da pochi anni, non si riesce più a contare il numero di biglietti venduti...",
+			"map": "5",
+			"regioneId": "Pie",
+			"polygons": [
+				"110.6,153.1 129.3,155.6 139.6,149.9 145.7,151.2 151.1,146.6 147,128.8 147,122.5 177.7,85.5 178.5,104.5 187.3,127.2 181,138.9 190.8,165.4 179.9,169.6 182.9,193.4 193.1,195.6 205.9,216.1 205.4,224.8 194.4,223.1 187.6,230.5 176,228.6 169.2,233.8 156.1,229.5 148.5,243.9 145.1,254.9 124.7,253.6 88.7,239.3 86.9,219.1 101.3,205.9 89.6,198.2 86.9,186.5 80,181 106.8,169.3   "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Puglia",
+			"description": "La Puglia è come una donna bella e ricca a cui non manca nulla per essere ammirata, una di quelle donne che quando entrano in una stanza affollata, bloccano le conversazioni e catturano gli sguardi con il loro essere gentile e delicato. La Puglia pulsa nel Mediterraneo, come un cuore nel petto di un uomo innamorato; è da sempre terra d'accoglienza, ponte tra diverse culture che una volta approdate sul suo suolo hanno lasciato semi, germogliati nel tempo, di cui ancora oggi ammiriamo i fiori variopinti. Li troviamo nei dialetti, intrisi delle lingue dei diversi popoli del Mare Nostrum e nelle architetture, nei giardini e nei palazzi. La Puglia infatti non è solo terra di mare e di sole, ma si fa ammirare come un museo diffuso che si snoda dal punto più a nord a quello più a sud...",
+			"map": "5",
+			"regioneId": "Pug",
+			"polygons": [
+				"495.8,462 495.1,451.6 501.6,439.3 506.3,426.9 506.3,426.5 512,428.1 558.6,429.1 565.1,437.9 547.1,448.5 610,486.6 635.1,505.7 659,514.3 667.4,531.5 685.5,542.1 689.6,551.7 683.6,564 685.5,576.3 663.8,570.9 658.1,560.2 655.1,548.7 636,544.9 620.7,535.3 617.9,531.5 601.7,531.5 594.6,517.6 583.9,510.9 573.6,513.4 562.7,498.3 554.7,497 551.1,487.2 545.2,482.3 538.9,485.6 512,486.3 509.5,472.6 502.5,470.4 501.6,462.3 "
+			],
+			"SNC": "S"
+		},
+		{
+			"name": "Sardegna",
+			"description": "Il mare che circonda la Sardegna è il punto di forza di questa terra e anche il suo più grande custode, che nei secoli l'ha preservata permettendole di conservare il suo animo selvaggio e puro. L'isola è la meta ideale per chi cerca bagni immersi nel mare caraibico, che potrete trovare anche lasciandovi alle spalle l'affollata Costa Smeralda. Il viaggio all'interno di questa terra parte dalle sue coste, diverse da nord a sud. La parte settentrionale è caratterizzata da calette di sassolini e scogliere alte e leggermente frastagliate, a meridione invece potrete scoprire una Sardegna più tranquilla, con sabbie dorate e distese di quarzi rosa. Ogni piccolo angolo di quest'isola è un paradiso, sono un esempio l'arcipelago della Maddalena con le sue acque limpide e lo stagno di Nattari, diviso dal mare da una striscia di sabbia che è diventata casa di alcuni fenicotteri rosa. La Sardegna è anche terra di siti archeologici unici, nel cuore del Supramonte, si trova il villaggio di Tiscali, circa quaranta capanne costruite sulle rocce della Dulina e a Nuraxi si trova il villaggio nuragico più grande dell'isola...",
+			"map": "5",
+			"regioneId": "Sar",
+			"polygons": [
+				"193,463 203.6,472.3 210,472.3 207.2,482 217.6,491.5 221.5,524.9 213.6,537.5 218.8,559.4 206.2,599.4 209.1,610.6 198.5,623.2 187,611.7 170.8,617.6 173.8,629.1 157.4,637.6 139.2,619.5 138.3,591.7 149.8,564.9 141.1,561.1 143.2,550.4 142.1,513.4 136.4,507.9 129,505.7 128.1,502.8 136.4,498.3 133.6,482 132.6,479 141.1,474.9 143.2,487.5 154.5,489.4 167.9,484.7 184,469.4  "
+			],
+			"SNC": "S"
+		},
+		{
+			"name": "Sicilia",
+			"description": "Il Mediterraneo in Sicilia è un modo di vivere e di esistere che trasuda dalle pelli brune, dai colori vivaci e dai profumi intensi degli agrumi e dei prodotti genuini che abbandono sulle bancarelle dei mercati rionali di Catania ma anche di Palermo. Una città dal cuore nobile ed elegante, dimora di re e nobili, che non nasconde il suo lato verace fatto delle bancarelle ricche di delizie fresche di Ballarò ma anche di street food di qualità, con arancini e crocchè che fanno dimenticare la dieta senza rimpianti. L'Etna che osserva questo fermento isolano dall'alto della sua magnificenza, ha tutto il diritto di farsi ammirare con vanità, circondata dal suo parco fatto di sentieri da esplorare. La storia e la natura sono il binomio vincente del territorio, uniti in luoghi che diventano vere e proprie perle preziose, come Ortigia, isola che racchiude il centro storico siracusano con i suoi ristoranti e i negozietti d'artigianato, e lo spettacolo magico del panorama di Taormina ma soprattutto la bellissima Cefalù che regala bagni indimenticabili da una spiaggia affacciata su antiche rovine...",
+			"map": "5",
+			"regioneId": "Sic",
+			"polygons": [
+				"374.4,704.6 363.7,710.2 365.6,729.2 370.8,741.8 400.2,750.4 430.8,770.3 449.7,778.2 467.9,785.6 477.6,799.1 494.8,802.9 510.9,810.6 515.5,805.6 510.1,797.2 522.6,780.1 516.6,763.8 508.2,760.7 512,736.1 521.6,725.5 530.9,694.8 513.7,694 507.3,703.5 497.5,696.7 483.2,705.5 469.8,710.2 448.8,706.5 439.2,713.1 421.2,704.6 410.5,705.5 410.5,695.9 391.6,696.7 393.5,709.3 385,711.2  "
+			],
+			"SNC": "S"
+		},
+		{
+			"name": "Toscana",
+			"description": "Le dolci colline toscane cambiano colore seguendo l’andare delle stagioni. Tenui colori pastello tinteggiano i colli del Chianti con i loro manti di vigneti e uliveti ed i borghi medievali, dipinti del colore della mattone nudo, della Terra di Siena. Regna questa tonalità nella senese Piazza del Campo, simbolo di una città tranquilla e delicata, che trova anima e forza nel Palio di Ferragosto, una tradizione irrinunciabile per le contrade e per i cittadini. La Toscana è una dolce signora d’altri tempi, dai gusti raffinati, dolci, come le sue cittadine, custodite come antichi e preziosi suppellettili di case nobili. Grosseto e Livorno, bagnate dal mare, la Val di Ciano con i suoi borghi e le terme, Lucca racchiusa in una cinta muraria, da cui con facilità si può raggiungere la Versilia, la riviera delle celebrità con i locali e i ristorantini rinomati...",
+			"map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1540260.5976258556!2d16.265813!3d41.061965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1336e42b8db993dd%3A0x396fba70f8247c8f!2sPuglia!5e0!3m2!1sit!2sit!4v1688313028462!5m2!1sit!2sit",
+			"regioneId": "tos",
+			"polygons": [
+				"244.4,361.5 254,357.8 260.4,352.8 262.3,363.2  ",
+				"247.7,273.2 247.1,262.9 236.5,252.4 235.2,242 249.1,240.7 261.4,254 272.3,255.2 277.3,264.5 289.3,262.9 306,268.9 315.1,259.8 332.3,268.6 336.6,284.1 343.7,291 352.2,291.6 359.4,301.6 348.2,316.8 352.6,331.2 340,337 340.7,361.5 330.4,362.1 331.4,377.1 323.2,380.5 319.6,394.9 319.6,395.3 305.5,393 298,394.9 298.9,383.4 287.4,361.5 277.8,348.1 268.3,349.8 272,334.7 262.3,316.7 254,277.1 247.7,273.5  "
+			],
+			"SNC": "C"
+		},
+		{
+			"name": "Trentino",
+			"description": "Le acque che scivolano giù dai ghiacciai hanno scavato le rocce del Trentino Alto Adige, ricamando i luoghi di questa regione. Il Trentino è un luogo di frontiera, in cui l'anima italiana si mescola all'aria frizzantina della Germania e dell'Austria. Le Dolomiti dominano su uno scenario di boschi e valli, attraversati dallo scorrere impetuoso dei fiumi e dalla placida tranquillità dei laghi. Non solo natura per questa regione ma anche storia e cultura, ed ecco che tra le rocce delle montagne spuntano come stelle alpine i piccoli borghi arrampicati sui costoni rocciosi o poggiati sulle valli. Trento con i palazzi del concilio cattolico, ma anche la tedesca Bolzano, e le viuzze di Merano che conducono verso la romantica via dei portici, da percorrere mano per la mano, rigorosamente in due. In coppia, in gruppo ma anche da soli, qualsiasi formula va bene per andare a visitare i tanti parchi naturali della regione, la Selva della Val Gardena, il Parco Nazionale della Val di Non, e poi i Giardini Castel Traumansdorff, ‘il giardino più bello d'Italia', con le piante provenienti da ogni angolo del mondo...",
+			"map": "5",
+			"regioneId": "Trn",
+			"polygons": [
+				"365.6,70.2 358.2,51 340,57.7 313.2,56.6 299.7,72.1 289.3,64.4 280,65.1 275.7,81.4 282.5,106.3 279.5,116.1 275.4,126 279.4,138.4 288.5,138.9 293.2,143.8 291.5,145.7 291.5,146 307.6,149.6 315.1,137.8 332.3,133.2 344.8,116.1 337.8,108.2 342.6,93.5 361.2,86.1 371.7,75.5 371.7,75.2  "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Umbria",
+			"description": "Se vorresti scappare, partire alla ricerca di te stesso ma pensi che il luogo ideale esista solo nella tua mente, non disperare, devi solo incontrare l'Umbria. Il cuore pulsante dell'Italia viva, arroccato sui pendi di montagne e colline che regalano alla vista paesaggi incontaminati, punteggiati qua e là da piccoli borghi. Luoghi semplici, custodi di una vita umile, senza pretese, regalano silenzio e pace, ma anche meditazione per chi sceglie di avventurarsi per Assisi che ancora oggi trasuda di spiritualità autentica. L'arte arricchisce questa terra, il duomo di Orvieto, tra i più belli d'Italia, con il suo imponente stile gotico e i colori prorompenti, le chiesette di Spoleto e la Galleria Nazionale Umbra che a Perugia ospita, tra le altre, le opere di Piero della Francesca, Pinturicchio e Perugino. Ma i veri volti di questa terra si possono conoscere solo attraverso i suoi sapori: genuini come i maiali e i cinghiali allevati all'aperto che diventano salumi, essiccati naturalmente secondo un antica ricetta; dolci e pittoreschi, come il cioccolato che diventa un Bacio ma anche un sugo, con le noci a Terni...",
+			"map": "5",
+			"regioneId": "Umb",
+			"polygons": [
+				"408.1,362.9 391.9,373 383.1,380.8 372.5,388.6 364.9,386.7 340.7,361.5 340,337 352.6,331.2 348.2,316.8 359.4,301.6 362.7,312.3 384,315.9 393.9,359.9 405.6,362.9  "
+			],
+			"SNC": "C"
+		},
+		{
+			"name": "Valle D'Aosta",
+			"description": "Se siete uomini e donne di città, sempre alle prese con il traffico caotico, con una vita di corsa e la metropolitana che chiude le porte proprio nel momento in cui arrivate di fronte. Se le vacanze al mare vi hanno stancato e il caldo afoso non fa per voi; se cercate una meta insolita ma fantastica, che vi regali piccoli souvenir da portare sempre nel cuore, quello che state cercando è la Valle d'Aosta. La più piccola delle regioni italiane è accoccolata tra le montagne alpine che la difendono dal caos della frenesia. L'elisir d'amore che dona ai suoi visitatori si basa su tre ingredienti: la natura incontaminata con i suoi paesaggi fantastici, la storia e la sua tradizione culinaria. La Valle d'Aosta è il luogo adatto per chi cerca quiete, lunghe passeggiate tra i boschi secolari e la rilassante pace degli chalet con vista sulle montagne, ma è anche il posto perfetto per gli amanti dello sport: lo snowboard e lo scii ma anche il trekking e la mountain bike con cui vivacizzare le giornate estive...",
+			"map": "5",
+			"regioneId": "VDA",
+			"polygons": [
+				"110.6,153.1 129.3,155.6 139.6,149.9 145.7,151.2 151.1,146.6 147,128.8 147,122.5 130.7,117 103.2,122.5 93.4,131.3 99.4,137 99.4,141.7   "
+			],
+			"SNC": "N"
+		},
+		{
+			"name": "Veneto",
+			"description": "L'anima del Veneto è come la sua laguna: visitata da molti e famosa per la sua bellezza, ma anche custode di piccoli segreti che la rendono unica. Il Veneto racchiude nel suo perimetro alcune tra le più belle città d'Italia, impossibile non associare questa terra a Venezia, al suo carnevale e al giro in Gondola tra Piazza San Marco e il Canal Grande; ma anche alla romantica Verona, con la sua arena romana e le sue strade, scenario delle vicende di Romeo e Giulietta. Eppure basta spostarsi di poco per scoprire il vero volto di questa regione, intriso di tradizioni locali ed una cucina dai sapori unici. Ripartiamo dalla laguna, facciamo il canonico giro in barca verso Murano, Burano e Torcello e poi lasciamocelo alle spalle per dirigerci verso le Isole Minori, luoghi di autentica bellezza. Partiamo da qui alla scoperta dei piccoli borghi nascosti del Veneto, magici e fermi nel tempo, racchiusi tra le mura medievali, alcuni lambiti dalle sponde del lago di Garda, altri arroccati sulle rocce delle Dolomiti che incorniciano questa terra...",
+			"map": "5",
+			"regioneId": "Ven",
+			"polygons": [
+				"398.8,159.1 376.3,171.2 374.4,161.9 363.7,173.1 359.9,186.5 372.5,203.7 364.6,216.8 343.8,213.3 332,213.6 319.6,205.3 305.2,190 289.3,179.1 289,148.2 291.5,145.7 291.5,146 307.6,149.6 315.1,137.8 332.3,133.2 344.8,116.1 337.8,108.2 342.6,93.5 361.2,86.1 371.7,75.5 371.7,75.2 380.9,83.6 383.7,83.9 384,92.3 364.3,110.1 372.2,123.1 369.5,134.5 376.8,146.3 390.5,144.7 396.5,149.9 398.7,158.8  "
+			],
+			"SNC": "N"
+		}
+	],
+	"users": [
+		{
+			"email": "paolino@paperino.it",
+			"password": "paperino",
+			"regione": "Pug"
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "Olio Paiano",
+			"immagine": "../src/assets/images/olio.jpg",
+			"price": 11,
+			"description": "Olio extravergine dal gusto deciso Casciani 0,75. L’olio extravergine di oliva Tenuta Paiano “Casciani“, è un olio extravergine dal gusto forte in formato da 0,75, per palati dal gusto deciso",
+			"produttore": "Tenuta Paiano",
+			"prodotto": "Olio extravergine di oliva L’ olio extra vergine di oliva italiano è il fiore all’occhiello della nostra produzione di prodotti tipici pugliesi, che può vantare circa sessanta milioni di alberi di ulivo, di cui almeno cinque sono da considerarsi monumentali Essa produce circa il 40 % della produzione di olio d’oliva e il 12% di quella mondiale. Questo importantissimo alimento, che non può mancare sulle nostre tavole, è troppo spesso oggetto di contraffazioni di ogni genere e specie. La promozione di un olio extravergine online di qualità rientra proprio in quel processo di riscoperta del profondo legame fra cibo e salute. Le olive raccolte vengono lavorate a ciclo continuo a tre fasi (PIERALISI) a sud della Pianura Salentina (zona ideale per coltivazioni agricole), dove tecnici qualificati controllano la fase produttiva affinché venga garantita la massima qualità.",
+			"azienda": "L’Azienda Agricola Oro del Salento® cura con amore gli uliveti secolari e terreni tramandati dall’azienda di famiglia PaianoAngelo, raccogliendo e selezionando solo i frutti migliori che producono un olio extravergine di oliva di qualità che a secondo della posizione del terreno e del tipo di pianta conferiscono all’olio aromi, gusti diversi e caratteristici, seguiti poi da un selezionato corollario di altri prodotti che si affiancano in modo perfetto per creare sempre nuove ricette per l’aperitivo, il pranzo e la cena.Olio Extravergine di Oliva Paiano ™ e Olio Extravergine di Oliva Casciani (dal nome della tenuta di proprietà dalla Famiglia Paiano), sono entrambi ottenuti da olive di produzione salentina. Entrambi gli olii sono adatti ad un consumatore attento alla qualità della vita ed alla salute, il benessere ed il gusto anche nei gesti quotidiani.",
+			"regione": "Pug"
+		},
+		{
+			"id": 2,
+			"name": "Peperoncino Piccante",
+			"immagine": "../src/assets/images/pate_olive.jpg",
+			"price": 12,
+			"description": "Focu Salentino, peperoncino piccante macinato sott’olio. Il Focu Salentino, il nome originale significa “Fuoco del Salento”, è il peperoncino piccante invasettato da 400 gr.",
+			"produttore": "Oro del Salento",
+			"prodotto": "Olio extravergine di oliva L’ olio extra vergine di oliva italiano è il fiore all’occhiello della nostra produzione di prodotti tipici pugliesi, che può vantare circa sessanta milioni di alberi di ulivo, di cui almeno cinque sono da considerarsi monumentali Essa produce circa il 40 % della produzione di olio d’oliva e il 12% di quella mondiale. Questo importantissimo alimento, che non può mancare sulle nostre tavole, è troppo spesso oggetto di contraffazioni di ogni genere e specie. La promozione di un olio extravergine online di qualità rientra proprio in quel processo di riscoperta del profondo legame fra cibo e salute. Le olive raccolte vengono lavorate a ciclo continuo a tre fasi (PIERALISI) a sud della Pianura Salentina (zona ideale per coltivazioni agricole), dove tecnici qualificati controllano la fase produttiva affinché venga garantita la massima qualità.",
+			"azienda": "L’Azienda Agricola Oro del Salento® cura con amore gli uliveti secolari e terreni tramandati dall’azienda di famiglia PaianoAngelo, raccogliendo e selezionando solo i frutti migliori che producono un olio extravergine di oliva di qualità che a secondo della posizione del terreno e del tipo di pianta conferiscono all’olio aromi, gusti diversi e caratteristici, seguiti poi da un selezionato corollario di altri prodotti che si affiancano in modo perfetto per creare sempre nuove ricette per l’aperitivo, il pranzo e la cena.Olio Extravergine di Oliva Paiano ™ e Olio Extravergine di Oliva Casciani (dal nome della tenuta di proprietà dalla Famiglia Paiano), sono entrambi ottenuti da olive di produzione salentina. Entrambi gli olii sono adatti ad un consumatore attento alla qualità della vita ed alla salute, il benessere ed il gusto anche nei gesti quotidiani.",
+			"regione": "Pug"
+		},
+		{
+			"id": 3,
+			"name": "Patè Olive",
+			"immagine": "../src/assets/images/peperoncino_piccante.jpg",
+			"price": 299,
+			"description": "",
+			"produttore": "Oro del Salento",
+			"prodotto": "Olio extravergine di oliva L’ olio extra vergine di oliva italiano è il fiore all’occhiello della nostra produzione di prodotti tipici pugliesi, che può vantare circa sessanta milioni di alberi di ulivo, di cui almeno cinque sono da considerarsi monumentali Essa produce circa il 40 % della produzione di olio d’oliva e il 12% di quella mondiale. Questo importantissimo alimento, che non può mancare sulle nostre tavole, è troppo spesso oggetto di contraffazioni di ogni genere e specie. La promozione di un olio extravergine online di qualità rientra proprio in quel processo di riscoperta del profondo legame fra cibo e salute. Le olive raccolte vengono lavorate a ciclo continuo a tre fasi (PIERALISI) a sud della Pianura Salentina (zona ideale per coltivazioni agricole), dove tecnici qualificati controllano la fase produttiva affinché venga garantita la massima qualità.",
+			"azienda": "L’Azienda Agricola Oro del Salento® cura con amore gli uliveti secolari e terreni tramandati dall’azienda di famiglia PaianoAngelo, raccogliendo e selezionando solo i frutti migliori che producono un olio extravergine di oliva di qualità che a secondo della posizione del terreno e del tipo di pianta conferiscono all’olio aromi, gusti diversi e caratteristici, seguiti poi da un selezionato corollario di altri prodotti che si affiancano in modo perfetto per creare sempre nuove ricette per l’aperitivo, il pranzo e la cena.Olio Extravergine di Oliva Paiano ™ e Olio Extravergine di Oliva Casciani (dal nome della tenuta di proprietà dalla Famiglia Paiano), sono entrambi ottenuti da olive di produzione salentina. Entrambi gli olii sono adatti ad un consumatore attento alla qualità della vita ed alla salute, il benessere ed il gusto anche nei gesti quotidiani.",
+			"regione": "Pug"
+		}
+	]
+}
