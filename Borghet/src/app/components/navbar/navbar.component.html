@@ -20,18 +20,15 @@
                 </ul>
             </li>
         </ul>
-        <div class="row align-content-center">
-
-            <app-login class=" mt-2"></app-login>
-
-            <app-modal-cart></app-modal-cart>
-
+        <div class="col-3">
+            <app-login></app-login>
         </div>
     </div>
-    <div class="col ">
+    <div class="col">
         <form class="d-flex mb-2" role="search">
             <input class="form-control me-2" type="search" placeholder="Cerca un prodotto" aria-label="Search">
             <button class="btn btn-secondary" type="submit">Cerca</button>
+            <app-modal-cart class="mx-2"></app-modal-cart>
         </form>
     </div>
 

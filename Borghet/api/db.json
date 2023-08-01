@@ -213,7 +213,7 @@
 		{
 			"id": 1,
 			"name": "Olio Paiano",
-			"immagine": "../src/assets/images/olio.jpg",
+			"immagine": "assets/images/olio.jpg",
 			"price": 11,
 			"description": "Olio extravergine dal gusto deciso Casciani 0,75. L’olio extravergine di oliva Tenuta Paiano “Casciani“, è un olio extravergine dal gusto forte in formato da 0,75, per palati dal gusto deciso",
 			"produttore": "Tenuta Paiano",
@@ -224,7 +224,7 @@
 		{
 			"id": 2,
 			"name": "Peperoncino Piccante",
-			"immagine": "../src/assets/images/pate_olive.jpg",
+			"immagine": "assets/images/pate_olive.jpg",
 			"price": 12,
 			"description": "Focu Salentino, peperoncino piccante macinato sott’olio. Il Focu Salentino, il nome originale significa “Fuoco del Salento”, è il peperoncino piccante invasettato da 400 gr.",
 			"produttore": "Oro del Salento",
@@ -235,7 +235,7 @@
 		{
 			"id": 3,
 			"name": "Patè Olive",
-			"immagine": "../src/assets/images/peperoncino_piccante.jpg",
+			"immagine": "assets/images/peperoncino_piccante.jpg",
 			"price": 299,
 			"description": "",
 			"produttore": "Oro del Salento",

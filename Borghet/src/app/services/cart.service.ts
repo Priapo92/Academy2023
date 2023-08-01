@@ -1,26 +1,49 @@
 import { Injectable } from '@angular/core';
 import { Product } from '../interfaces/products';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
 
-  items: Product[] = [];
+  // dichiaro il BehaviorSubject che mi memorizzerà i prodotti nel carello
+  carrello: BehaviorSubject<any> = new BehaviorSubject([]);
 
   constructor() { }
 
-  addToCart(product: Product) {
-    this.items.push(product);
+  /**
+   * Metodo per aggiungere prodotti al carrello
+   * @param product prodotto aggiunto con quantità 1
+   */
+  addToCart(product: Product, quantita = 1) {
+    const nuovoCarrello = this.carrello.value;
+    const item = {
+      ...product,
+      quantita: quantita
+    };
+    nuovoCarrello.push(item);
+    this.carrello.next(nuovoCarrello);
+  }
+
+  removeToCart(ordine: any) {
+    const nuovoCarrello = this.carrello.value;
+    const posizione = nuovoCarrello.indexOf(ordine);
+    if (posizione > -1) {
+      // Utilizzo il metodo splice per rimuovere l'elemento ordine dal carrello
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+      nuovoCarrello.splice(posizione, 1)
+      this.carrello.next(nuovoCarrello);
+    }
   }
 
   getItems() {
-    return this.items;
+    return this.carrello.value;
   }
 
   clearCart() {
-    this.items = [];
-    return this.items;
+    this.carrello.next([])
+    return [];
   }
 }
 

@@ -10,17 +10,25 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class ModalCartComponent implements OnInit {
 
+  ordini: any[] = [];
+
   constructor(
     private route: ActivatedRoute,
     private cartService: CartService
   ) { }
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.cartService.carrello.subscribe((ordini) => {
+      this.ordini = ordini;
+    })
   }
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
     window.alert('Your product has been added to the cart!');
+  }
+
+  eliminaOrdine(ordine: any) {
+    this.cartService.removeToCart(ordine);
   }
 }

@@ -1,10 +1,9 @@
-<p>info-prd works!</p>
 <div class="row g-0">
     <app-navbar></app-navbar>
 </div>
 <div class="row container-fluid g-1 mt-3 mb-3">
     <div class="col-xxl-3 col-xl-3 container text-center border border-secondary border-3 rounded shadow-lg">
-        <img src="assets/images/olio.jpg" class="img-fluid p-1 ">
+        <img [src]="prodotto.immagine" class="img-fluid p-1 ">
         <div class="row">
             <h3>Caratteristiche</h3>
             <p>Olio extravergine dal gusto deciso Casciani 0,75L <br>
@@ -16,7 +15,7 @@
                 <h3>Prezzo 11,00</h3>
             </div>
             <div class="col-12 mt-3 mb-3 container-fluid">
-                <a class="btn btn-xs btn-primary shadow-lg" href="#">Mettin Nel Carrello
+                <a class="btn btn-xs btn-primary shadow-lg" (click)="aggiungiAlCarrello()">Mettin Nel Carrello
                     <span class="fas fa-cart-plus me-2">
                         <span
                             class="position-absolute top-0 start-80 translate-middle badge rounded-circle bg-secondary">

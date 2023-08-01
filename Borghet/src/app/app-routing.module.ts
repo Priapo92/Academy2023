@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'chiSiamo', component: ChiSiamoComponent },
   { path: 'faqs', component: FaqsComponent },
   { path: 'user', component: UserComponent },
-  { path: 'infoprd', component: InfoPrdComponent },
+  { path: 'infoprd/:id', component: InfoPrdComponent },
   { path: 'Checkout', component: CheckoutComponent },
   { path: 'Catalogo', component: CatalogoComponent },
 

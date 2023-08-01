@@ -11,6 +11,7 @@ export class LoginComponent {
 
   isLogged = false;
 
+  // variabili dell'istanza del componente che sono collegati con gli input del form
   loginEmail = "";
   loginPassword = "";
 
@@ -18,10 +19,19 @@ export class LoginComponent {
     private router: Router,
     private servizio: CommonService
   ) {
-
+    // sto effettuando una sottoscrizione per restare aggiornato sui cambiamenti del
+    // BeheviorSubject isLogged definito nel servizio
+    this.servizio.isLogged.subscribe((loggato) => {
+      console.log("AGGIORNAMENTO SULLA LOGIN: ", loggato)
+      // se ho degli aggiormenti cambio il valore della variabile locale del componente
+      this.isLogged = loggato;
+    })
   }
 
-  login() {
+  /**
+   * Vecchio metodo che effettua la login salvando solo il parametro nell'istanza del componente
+   */
+  loginOld() {
     console.log("DATI UTENTE " + this.loginEmail + " Password: " + this.loginPassword);
     this.servizio.getUsers().subscribe((utenti: any[]) => {
       const utente = utenti.filter(utente => {
@@ -40,6 +50,22 @@ export class LoginComponent {
         alert("ERRORE: utente o password errati");
       }
 
+    })
+  }
+
+  /**
+   * Metodo del login che utilizza il service per gestire lo stato di loggato
+   */
+  login() {
+    console.log("DATI UTENTE " + this.loginEmail + " Password: " + this.loginPassword);
+    // invoco il metodo di login sul service
+    this.servizio.login({
+      email: this.loginEmail,
+      password: this.loginPassword
+    }).subscribe((utente) => { // mi metto in attesa di una risposta
+      document.getElementById('modale_login_chiudi')?.click();
+      // se corretta effettuo il navigate sulla pagina di regione definita dall'utente
+      this.router.navigate(['/regione', utente.regione]);
     })
   }
 
