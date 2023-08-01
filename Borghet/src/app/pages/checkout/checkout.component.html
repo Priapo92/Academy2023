@@ -12,59 +12,28 @@
                                 <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase text-secondary">
                                     I tuoi Prodotti
                                 </h3>
-                                <div class="d-flex align-items-center mb-5">
-                                    <div class="flex-shrink-0">
-                                        <img src="assets/images/pate_olive.jpg" class="img-fluid" style="width: 150px;"
+                                <!-- EFfettuo un ciclo sugli ordini per stampare i dati dei prodotti nel carrello -->
+
+                                <div class="row align-items-center" *ngFor="let ordine of ordini">
+                                    <div class="col-6">
+
+                                        <img [src]="ordine.immagine" class="img-fluid" style="width: 150px;"
                                             alt="Generic placeholder image">
+
                                     </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
-                                        <h5 class="text-primary">Samsung Galaxy M11 64GB</h5>
-                                        <h6 style="color: #9e9e9e;">Color: white</h6>
+                                    <div class="col-6">
+                                        <a (click)="eliminaOrdine(ordine)" class="float-lg-end text-black"><i
+                                                class="fas fa-times"></i></a>
+                                        <h5 class="text-primary">{{ ordine.name }}</h5>
+                                        <h6 style="color: #9e9e9e;">{{ ordine.produttore }}</h6>
                                         <div class="d-flex align-items-center">
-                                            <p class="fw-bold mb-0 me-5 pe-3">799$</p>
-                                            <div class="def-number-input number-input safari_only">
-                                                <button
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                                                    class="minus"></button>
-                                                <input class="quantity fw-bold text-black" min="0" name="quantity"
-                                                    value="1" type="number">
-                                                <button
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                                    class="plus"></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center mb-5">
-                                    <div class="flex-shrink-0">
-                                        <img src="assets/images/olio.jpg" class="img-fluid" style="width: 150px;"
-                                            alt="Generic placeholder image">
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
-                                        <h5 class="text-primary">Headphones Bose 35 II</h5>
-                                        <h6 style="color: #9e9e9e;">Color: Red</h6>
-                                        <div class="d-flex align-items-center">
-                                            <p class="fw-bold mb-0 me-5 pe-3">239$</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center mb-5">
-                                    <div class="flex-shrink-0">
-                                        <img src="assets/images/peperoncino_piccante.jpg" class="img-fluid"
-                                            style="width: 150px;" alt="Generic placeholder image">
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
-                                        <h5 class="text-primary">iPad 9.7 6-gen WiFi 32GB</h5>
-                                        <h6 style="color: #9e9e9e;">Color: rose pink</h6>
-                                        <div class="d-flex align-items-center">
-                                            <p class="fw-bold mb-0 me-5 pe-3">659$</p>
+                                            <p class="fw-bold mb-0 me-5 pe-3">{{ ordine.price }} $</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
                             <!-- Form Totale e Spedizione-->
                             <div class="col-lg-6 px-5 py-4">
                                 <div class="d-flex justify-content-between p-2 mb-2 bg-primary rounded">

@@ -8,4 +8,5 @@ export interface Product {
     prodotto: string;
     azienda: string;
     regione: string;
+    reg_description: string;
 } 

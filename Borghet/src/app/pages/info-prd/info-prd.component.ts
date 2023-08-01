@@ -11,6 +11,7 @@ import { CommonService } from 'src/app/services/common.service';
 })
 export class InfoPrdComponent {
   prodotto: Product = {} as Product;
+  commonService: any;
 
   // per costruire questo componente mi serve che Angular
   // passi questi valori
@@ -39,5 +40,5 @@ export class InfoPrdComponent {
   aggiungiAlCarrello() {
     this.cartService.addToCart(this.prodotto);
   }
-}
 
+}

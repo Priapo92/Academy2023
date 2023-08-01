@@ -2,79 +2,40 @@
     <app-navbar></app-navbar>
 </div>
 <div class="row container-fluid g-1 mt-3 mb-3">
-    <div class="col-xxl-3 col-xl-3 container text-center border border-secondary border-3 rounded shadow-lg">
+    <div class="col-xxl-3 col-xl-3 container text-center border border-secondary border-3 rounded">
         <img [src]="prodotto.immagine" class="img-fluid p-1 ">
         <div class="row">
-            <h3>Caratteristiche</h3>
-            <p>Olio extravergine dal gusto deciso Casciani 0,75L <br>
-                L’olio extravergine di oliva Tenuta Paiano “Casciani“, è un olio extravergine dal gusto forte in formato
-                da 0,75, per palati dal gusto deciso</p>
+            <h2 class="fw-bolder text-primary">{{prodotto.name}}</h2>
+            <p>{{prodotto.description}}</p>
         </div>
         <div class="row align-items-center mt-5">
             <div class="col-12">
-                <h3>Prezzo 11,00</h3>
+                <h3>Prezzo {{prodotto.price}} €</h3>
             </div>
             <div class="col-12 mt-3 mb-3 container-fluid">
                 <a class="btn btn-xs btn-primary shadow-lg" (click)="aggiungiAlCarrello()">Mettin Nel Carrello
-                    <span class="fas fa-cart-plus me-2">
-                        <span
-                            class="position-absolute top-0 start-80 translate-middle badge rounded-circle bg-secondary">
-                            3
-                            <span class="visually-hidden">unread messages</span>
-                        </span>
-                    </span>
+                    <span class="fas fa-cart-plus me-2"></span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="col-lg-12 col-xl-8 container text-center border border-primary border-3 mt-1 rounded">
+    <div class="col-lg-12 col-xl-8 container text-center border border-primary border-3 mt-1 rounded shadow-lg">
         <div class="row">
             <div class="col-6">
                 <h2>Prodotto</h2>
                 <hr class="border border-primary">
-                <p>Olio extravergine di oliva
-                    L’ olio extra vergine di oliva italiano è il fiore all’occhiello della nostra produzione di prodotti
-                    tipici pugliesi, che può vantare circa sessanta milioni di alberi di ulivo, di cui almeno cinque
-                    sono da
-                    considerarsi monumentali
-                    Essa produce circa il 40 % della produzione di olio d’oliva e il 12% di quella mondiale. Questo
-                    importantissimo alimento, che non può mancare sulle nostre tavole, è troppo spesso oggetto di
-                    contraffazioni di ogni genere e specie. La promozione di un olio extravergine online di qualità
-                    rientra
-                    proprio in quel processo di riscoperta del profondo legame fra cibo e salute.
-                    Le olive raccolte vengono lavorate a ciclo continuo a tre fasi (PIERALISI) a sud della Pianura
-                    Salentina
-                    (zona ideale per coltivazioni agricole), dove tecnici qualificati controllano la fase produttiva
-                    affinché venga garantita la massima qualità.</p>
+                <p>{{prodotto.prodotto}}</p>
             </div>
             <div class="col-6">
                 <h2>L’Azienda</h2>
                 <hr class="border border-secondary">
-                <p>L’Azienda Agricola Oro del Salento® cura con amore gli uliveti secolari e terreni tramandati
-                    dall’azienda
-                    di famiglia PaianoAngelo, raccogliendo e selezionando solo i frutti migliori che producono un olio
-                    extravergine di oliva di qualità che a secondo della posizione del terreno e del tipo di pianta
-                    conferiscono all’olio aromi, gusti diversi e caratteristici, seguiti poi da un selezionato
-                    corollario di
-                    altri prodotti che si affiancano in modo perfetto per creare sempre nuove ricette per l’aperitivo,
-                    il
-                    pranzo e la cena.Olio Extravergine di Oliva Paiano ™ e Olio Extravergine di Oliva Casciani (dal nome
-                    della tenuta di proprietà dalla Famiglia Paiano), sono entrambi ottenuti da olive di produzione
-                    salentina. Entrambi gli olii sono adatti ad un consumatore attento alla qualità della vita ed alla
-                    salute, il benessere ed il gusto anche nei gesti quotidiani.</p>
+                <p>{{prodotto.azienda}}</p>
             </div>
         </div>
         <div>
-            <h2>Scopri la <a href="https://www.iborghiditalia.com/regioni/puglia/">Puglia</a></h2>
+            <h2>Scopri la <a href="https://www.iborghiditalia.com/regioni/puglia/">{{prodotto.regione}}</a></h2>
             <hr class="border border-primary">
-            <p>La Puglia è come una donna bella e ricca a cui non manca nulla per essere ammirata, una di quelle donne
-                che quando entrano in una stanza affollata, bloccano le conversazioni e catturano gli sguardi con il
-                loro essere gentile e delicato. La Puglia pulsa nel Mediterraneo, come un cuore nel petto di un uomo
-                innamorato; è da sempre terra d'accoglienza, ponte tra diverse culture che una volta approdate sul suo
-                suolo hanno lasciato semi, germogliati nel tempo, di cui ancora oggi ammiriamo i fiori variopinti. Li
-                troviamo nei dialetti, intrisi delle lingue dei diversi popoli del Mare Nostrum e nelle architetture,
-                nei giardini e nei palazzi. La Puglia infatti non è solo terra di mare e di sole, ma si fa ammirare come
-                un museo diffuso che si snoda dal punto più a nord a quello più a sud...</p>
+            <p>{{prodotto.reg_description}}</p>
             <a routerLink="/Catalogo">
                 <h3 class="mt-5">Continua con gli acquisti</h3>
             </a>
