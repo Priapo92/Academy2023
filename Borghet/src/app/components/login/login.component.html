@@ -1,6 +1,6 @@
 <div class="row d-flex">
     <div class="btn-group" role="group" aria-label="Basic example" *ngIf="!isLogged">
-        <button type="button" class="btn btn-primary border border-1 border-secondary" data-bs-toggle="modal"
+        <button type="button" class="btn btn-primary border border-1 border-secondary shadow-lg" data-bs-toggle="modal"
             data-bs-target="#modLog">Accedi</button>
         <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
             data-bs-target="#modReg">Registrati</button>
@@ -102,12 +102,14 @@
 
     <div class="container-fluid" *ngIf="isLogged">
         <div class="col">
-            <h6>Bentonato! </h6>
+            <h6>Bentonato {{user?.nome}} ! </h6>
         </div>
         <div class="col">
             <button routerLink="/user" type="button"
-                class="btn btn-primary border border-1 border-secondary rouded">Pagina
+                class="btn btn-primary border border-1 border-secondary rouded shadow-lg">Pagina
                 Profilo</button>
+            <button class="btn btn-danger border border-1 border-secondary rouded mx-1" (click)="logOut()"><i
+                    class="bi bi-box-arrow-right"></i></button>
         </div>
     </div>
 </div>

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable, map } from 'rxjs';
+import { BehaviorSubject, Observable, map, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http'
 
 @Injectable({
@@ -10,6 +10,7 @@ export class CommonService {
   constructor(private http: HttpClient) { }
 
   isLogged = new BehaviorSubject(false);
+  utenteLoggato = new BehaviorSubject({})
 
   // Restituisce le regioni//
   getAllRegions(): Observable<any[]> {
@@ -40,9 +41,16 @@ export class CommonService {
       const utente = utenti.find(utente => utente.email == credenziali.email && utente.password == credenziali.password);
       // verifico lo stato della login, se l'utente è stato trovato la imposto a true, altrimenti false
       this.isLogged.next(utente ? true : false);
+      this.utenteLoggato.next(utente);
       // restituisco l'utente
       return utente;
     }))
+  }
+
+  logOut() {
+    this.isLogged.next(false)
+    this.utenteLoggato.next({});
+    return of(true);
   }
 
 }

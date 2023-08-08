@@ -206,7 +206,9 @@
 		{
 			"email": "paolino@paperino.it",
 			"password": "paperino",
-			"regione": "Pug"
+			"regione": "Pug",
+			"nome": "Paolo",
+			"cognome": "Priapo"
 		}
 	],
 	"products": [

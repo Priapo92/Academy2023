@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CommonService } from 'src/app/services/common.service';
+
 
 @Component({
   selector: 'app-user',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./user.component.scss']
 })
 export class UserComponent {
+
+  constructor(
+    private servizio: CommonService) { }
 
 }

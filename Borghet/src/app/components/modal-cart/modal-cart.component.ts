@@ -12,6 +12,9 @@ export class ModalCartComponent implements OnInit {
 
   ordini: any[] = [];
 
+  numeroProdotti = 0;
+  totaleOrdini = 0;
+
   constructor(
     private route: ActivatedRoute,
     private cartService: CartService
@@ -20,6 +23,12 @@ export class ModalCartComponent implements OnInit {
   ngOnInit(): void {
     this.cartService.carrello.subscribe((ordini) => {
       this.ordini = ordini;
+      this.numeroProdotti = ordini.length;
+      let t = 0;
+      for (let i = 0; i < ordini.length; i++) {
+        t += ordini[i].price;
+      }
+      this.totaleOrdini = t;
     })
   }
 

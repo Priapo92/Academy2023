@@ -10,6 +10,8 @@ import { CommonService } from 'src/app/services/common.service';
 export class LoginComponent {
 
   isLogged = false;
+  user: any = {};
+
 
   // variabili dell'istanza del componente che sono collegati con gli input del form
   loginEmail = "";
@@ -25,6 +27,10 @@ export class LoginComponent {
       console.log("AGGIORNAMENTO SULLA LOGIN: ", loggato)
       // se ho degli aggiormenti cambio il valore della variabile locale del componente
       this.isLogged = loggato;
+    })
+
+    this.servizio.utenteLoggato.subscribe((utente: any) => {
+      this.user = utente;
     })
   }
 
@@ -63,14 +69,27 @@ export class LoginComponent {
       email: this.loginEmail,
       password: this.loginPassword
     }).subscribe((utente) => { // mi metto in attesa di una risposta
-      document.getElementById('modale_login_chiudi')?.click();
-      // se corretta effettuo il navigate sulla pagina di regione definita dall'utente
-      this.router.navigate(['/regione', utente.regione]);
+      if (utente) {
+        document.getElementById('modale_login_chiudi')?.click();
+        // se corretta effettuo il navigate sulla pagina di regione definita dall'utente
+        this.router.navigate(['/regione', utente.regione]);
+      } else {
+        // errore nella login
+        alert("ERRORE: utente o password errati");
+      }
+
     })
   }
 
   dataSave() {
     sessionStorage.setItem(this.loginEmail = "", this.loginPassword = "");
+  }
+
+  logOut() {
+
+    this.servizio.logOut().subscribe(() => {
+      this.router.navigate(['/dashboard',]);
+    })
   }
 
 }
